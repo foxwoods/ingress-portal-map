@@ -13,7 +13,7 @@ Ingress Portal Map
 
 使用方法
 --------
-1. 新建一个Firebase，用来保存portal数据。（* [Firebase](http://www.firebase.com)还在内测中，需要先申请Beta Code。我当时在第二天就收到Beta Code了 *）
+1. 新建一个Firebase，用来保存portal数据。（[Firebase](http://www.firebase.com)还在内测中，需要先申请Beta Code。我当时在第二天就收到Beta Code了）
 2. 修改bookmarklet.min.js，把`https://my-portals.firebaseio.com/`替换为第一步中新建的[Firebase](http://www.firebase.com)地址，然后在最前面加上`javascript:`，把整个文件的内容保存成书签。
 3. 在浏览器中打开[Intel Map](http://www.ingress.com/intel)，然后点击上一步中保存的书签，向页面中注入代码。
 4. 拖动地图，新加载的portal就会保存到[Firebase](http://www.firebase.com)里了，从Firebase的后台可即时以看到数据。为了保存所有等级的portal，应该把地图放大到"showing all portals"的程度。
