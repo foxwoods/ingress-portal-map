@@ -1,3 +1,4 @@
+javascript:
 (function(){
 
 // use Firebase to store portal data
@@ -5,7 +6,7 @@ var setupFirebase = function(){
   $.getScript('https://cdn.firebase.com/v0/firebase.js', function(){
 
     // ** change the parameter in the following call to Firebase constructor to your firebase ref URL **
-    var rootRef = new Firebase('https://my-portals.firebaseio.com/');
+    var rootRef = new Firebase('https://czftra.firebaseio.com/');
 
     window.fbase = {
       upsertPortal: function(data){
