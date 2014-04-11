@@ -1,4 +1,4 @@
-Ingress Portal Map
+Ingress Portal Map (ABANDONED)
 ==================
 
 
@@ -32,8 +32,8 @@ Ingress Portal Map
 
 ROADMAP
 -------
-1. 实现全自动更新portal数据
-2. 充分利用已经获取的数据，制作可以排序和过滤的portal list页面
+1. ~~实现全自动更新portal数据~~
+2. ~~充分利用已经获取的数据，制作可以排序和过滤的portal list页面~~
 
 
 CREDITS
